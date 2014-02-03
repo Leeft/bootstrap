@@ -1,0 +1,54 @@
+
+//
+// Load core variables and mixins
+// --------------------------------------------------
+
+//@import "variables.less";
+//@import "mixins.less";
+
+body {
+   padding-top: 70px;
+}
+
+table.systems {
+   td {
+      &.uee { color: @uee; }
+      &.van { color: @vanduul; }
+      &.xia { color: @xian; }
+      &.ban { color: @banu; }
+      &.sub { color: @sub-uee; }
+      &.unc { color: @unclaimed; }
+      &.krt { color: @krthak; }
+
+      &.system_red { color: @system-red; }
+      &.system_blue { color: @system-blue; }
+      &.system_white { color: @system-white; }
+      &.system_yellow { color: @system-yellow; }
+      &.system_orange { color: @system-orange; }
+      &.system_unknown { color: @system-unknown; }
+   }
+}
+
+.tabbed-form {
+   .form-horizontal {
+      margin: 1.5em 0;
+   }
+}
+
+.mapdb {
+   .pagination, div.btn-group {
+      margin: 0 0 5px 0;
+   }
+}
+
+#systemInfoModal {
+   h3 {
+      color: @brand-primary;
+   }
+}
+
+dl.dl-horizontal {
+   dt {
+      color: @brand-primary;
+   }
+}
