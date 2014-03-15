@@ -6232,9 +6232,6 @@ dl.dl-horizontal dt {
 .font-sizes .font-size-large {
   font-size: 1.0em;
 }
-.navbar-brand {
-  font-size: 1.6em;
-}
 .form-control {
   font-size: inherit;
 }
@@ -6265,11 +6262,6 @@ dl.dl-horizontal dt {
 .spacious-xl {
   line-height: 3em !important;
 }
-.navbar-brand h1 {
-  margin: 0;
-  font-size: .8em;
-  line-height: 1em;
-}
 main {
   display: block;
   margin-bottom: 5em;
@@ -6277,7 +6269,8 @@ main {
 .nocontent {
   display: none;
 }
-.login-remember_me div.checkbox {
+.login-remember_me div.checkbox label {
+  width: auto;
   padding-left: 0;
 }
 h1 {
@@ -6291,6 +6284,15 @@ h3 {
 }
 h4 {
   font-size: 1.0em;
+}
+.navbar-brand {
+  margin: 0;
+  font-size: .8em;
+  line-height: 1em;
+}
+.navbar-brand h1 {
+  margin-top: 0;
+  line-height: .7em;
 }
 article h1,
 aside h1 {
