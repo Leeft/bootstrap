@@ -12,13 +12,13 @@ body {
 
 table.systems {
    td {
-      &.uee { color: @uee; }
-      &.van { color: @vanduul; }
-      &.xia { color: @xian; }
-      &.ban { color: @banu; }
-      &.sub { color: @sub-uee; }
-      &.unc { color: @unclaimed; }
-      &.krt { color: @krthak; }
+      &.uee  { color: @uee; }
+      &.vand { color: @vanduul; }
+      &.xian { color: @xian; }
+      &.banu { color: @banu; }
+      &.suee { color: @sub-uee; }
+      &.uncl { color: @unclaimed; }
+      &.krtk { color: @krthak; }
 
       &.system_red { color: @system-red; }
       &.system_blue { color: @system-blue; }
@@ -51,13 +51,21 @@ table th, table td {
 
 table.goods {
    a {
-      &.uee { color: @uee; }
-      &.van { color: @vanduul; }
-      &.xia { color: @xian; }
-      &.ban { color: @banu; }
-      &.sub { color: @sub-uee; }
-      &.unc { color: @unclaimed; }
-      &.krt { color: @krthak; }
+      &.uee  { color: @uee; }
+      &.vand { color: @vanduul; }
+      &.xian { color: @xian; }
+      &.banu { color: @banu; }
+      &.suee { color: @sub-uee; }
+      &.uncl { color: @unclaimed; }
+      &.krtk { color: @krthak; }
+   }
+}
+
+table.condensed {
+   th, td {
+      &.name, &.crime-level, &.faction, &.coords {
+         white-space: nowrap;
+      }
    }
 }
 
@@ -85,9 +93,18 @@ dl.dl-horizontal {
    }
 }
 
-.font-size-small { font-size: 1.1em; }
-.font-size-medium { font-size: 1.3em; }
-.font-size-large { font-size: 1.5em; }
+.font-size-small {
+   font-size: 0.85em;
+   line-height: 1.0em;
+}
+.font-size-medium {
+   font-size: 1.0em;
+   line-height: 1.2em;
+}
+.font-size-large {
+   font-size: 1.2em;
+   line-height: 1.4em;
+}
 
 .font-sizes {
    .font-size-small  { font-size: 0.6em; }
@@ -97,7 +114,13 @@ dl.dl-horizontal {
 
 .form-control {
    font-size: inherit;
+   line-height: 1.25em;
+   height: auto;
 }
+select.form-control {
+   padding: 0.2em 0.3em;
+}
+
 .btn {
    font-size: inherit;
 }

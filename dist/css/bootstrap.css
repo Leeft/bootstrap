@@ -5566,22 +5566,22 @@ body {
 table.systems td.uee {
   color: #90abd9;
 }
-table.systems td.van {
+table.systems td.vand {
   color: #f9b29c;
 }
-table.systems td.xia {
+table.systems td.xian {
   color: #a4d49c;
 }
-table.systems td.ban {
+table.systems td.banu {
   color: #ffed9b;
 }
-table.systems td.sub {
+table.systems td.suee {
   color: #d1a4d0;
 }
-table.systems td.unc {
+table.systems td.uncl {
   color: #666;
 }
-table.systems td.krt {
+table.systems td.krtk {
   color: #e67100;
 }
 table.systems td.system_red {
@@ -5673,23 +5673,33 @@ table td.w36 {
 table.goods a.uee {
   color: #90abd9;
 }
-table.goods a.van {
+table.goods a.vand {
   color: #f9b29c;
 }
-table.goods a.xia {
+table.goods a.xian {
   color: #a4d49c;
 }
-table.goods a.ban {
+table.goods a.banu {
   color: #ffed9b;
 }
-table.goods a.sub {
+table.goods a.suee {
   color: #d1a4d0;
 }
-table.goods a.unc {
+table.goods a.uncl {
   color: #666;
 }
-table.goods a.krt {
+table.goods a.krtk {
   color: #e67100;
+}
+table.condensed th.name,
+table.condensed td.name,
+table.condensed th.crime-level,
+table.condensed td.crime-level,
+table.condensed th.faction,
+table.condensed td.faction,
+table.condensed th.coords,
+table.condensed td.coords {
+  white-space: nowrap;
 }
 .tabbed-form .form-horizontal {
   margin: 1.5em 0;
@@ -5705,13 +5715,16 @@ dl.dl-horizontal dt {
   color: #25e4ff;
 }
 .font-size-small {
-  font-size: 1.1em;
+  font-size: .85em;
+  line-height: 1.0em;
 }
 .font-size-medium {
-  font-size: 1.3em;
+  font-size: 1.0em;
+  line-height: 1.2em;
 }
 .font-size-large {
-  font-size: 1.5em;
+  font-size: 1.2em;
+  line-height: 1.4em;
 }
 .font-sizes .font-size-small {
   font-size: .6em;
@@ -5723,7 +5736,12 @@ dl.dl-horizontal dt {
   font-size: 1.0em;
 }
 .form-control {
+  height: auto;
   font-size: inherit;
+  line-height: 1.25em;
+}
+select.form-control {
+  padding: .2em .3em;
 }
 .btn {
   font-size: inherit;
