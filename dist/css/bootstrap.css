@@ -5820,6 +5820,14 @@ aside h3 {
 .nav-tabs > li.has-error i {
   color: #a94442;
 }
+textarea#info_blob {
+  min-width: 100%;
+  max-width: 100%;
+}
+#preview img {
+  max-width: 100%;
+  height: auto;
+}
 @media print {
   body {
     padding-top: 0;
