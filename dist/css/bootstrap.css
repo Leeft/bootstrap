@@ -378,8 +378,8 @@ h6,
 .h6 {
   font-family: inherit;
   font-weight: 500;
-  line-height: 1.1;
-  color: inherit;
+  line-height: 1.2;
+  color: #75a874;
 }
 h1 small,
 h2 small,
@@ -663,7 +663,7 @@ abbr[data-original-title] {
 blockquote {
   padding: 8px 16px;
   margin: 0 0 16px;
-  font-size: 20px;
+  font-size: 16.8px;
   border-left: 5px solid #eee;
 }
 blockquote p:last-child,
@@ -5588,7 +5588,10 @@ table.systems td.system_red {
   color: #ff6060;
 }
 table.systems td.system_blue {
-  color: #6060ff;
+  color: #60a0ff;
+}
+table.systems td.system_cornflowerblue {
+  color: #60a0ff;
 }
 table.systems td.system_white {
   color: #fff;
@@ -5708,11 +5711,8 @@ table.condensed td.coords {
 .mapdb div.btn-group {
   margin: 0 0 5px 0;
 }
-#systemInfoModal h3 {
-  color: #25e4ff;
-}
 dl.dl-horizontal dt {
-  color: #25e4ff;
+  color: #75a874;
 }
 .font-size-small {
   font-size: .85em;
@@ -5765,7 +5765,7 @@ select.form-control {
 }
 .spacious-sm dt,
 .spacious-sm dd {
-  line-height: 1.4em !important;
+  line-height: 1.5em !important;
 }
 .spacious-xl {
   line-height: 3em !important;
@@ -5783,15 +5783,52 @@ main {
 }
 h1 {
   font-size: 2em;
+  font-weight: bold;
 }
 h2 {
   font-size: 1.6em;
+  font-weight: bold;
 }
 h3 {
   font-size: 1.2em;
+  font-weight: bold;
 }
 h4 {
   font-size: 1.0em;
+  font-weight: bold;
+}
+h5 {
+  font-weight: bold;
+}
+h6 {
+  font-weight: bold;
+}
+img {
+  border: 1px solid #75a874;
+  border-radius: 6px;
+}
+.modal-title {
+  line-height: 1.5em;
+}
+#systemInfoModal {
+  line-height: 1.5em;
+}
+#systemInfoModal dt.source,
+#systemInfoModal dd.source {
+  margin-top: 2em;
+}
+#systemInfoModal blockquote {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+#systemInfoModal article {
+  padding-right: 4em;
+}
+#systemInfoModal article img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 .navbar-brand {
   margin: 0;

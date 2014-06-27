@@ -16,12 +16,11 @@
 @krthak:    #E67100;
 
 @system-red: #FF6060;
-@system-blue: #6060FF;
+@system-blue: rgba(96, 160, 255, 1);
 @system-white: #FFFFFF;
 @system-yellow: #FFFF60;
 @system-orange: #FFAA60; // FIXME
 @system-unknown: #888;
-
 
 // Grays
 // -------------------------
@@ -40,7 +39,7 @@
 @brand-info:            #5bc0de;
 @brand-warning:         #f0ad4e;
 @brand-danger:          #d9534f;
-
+@brand-alternate:       rgba(117, 168, 116, 1);
 
 //== Scaffolding
 //
@@ -87,8 +86,8 @@
 //** By default, this inherits from the `<body>`.
 @headings-font-family:    inherit;
 @headings-font-weight:    500;
-@headings-line-height:    1.1;
-@headings-color:          inherit;
+@headings-line-height:    1.2;
+@headings-color:          @brand-alternate;
 
 
 //== Iconography
@@ -855,7 +854,7 @@
 //** Blockquote small color
 @blockquote-small-color:      @gray-light;
 //** Blockquote font size
-@blockquote-font-size:        (@font-size-base * 1.25);
+@blockquote-font-size:        (@font-size-base * 1.05);
 //** Blockquote border color
 @blockquote-border-color:     @gray-lighter;
 //** Page header border color
